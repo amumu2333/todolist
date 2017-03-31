@@ -1,0 +1,123 @@
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  background: #cdcdcd;
+}
+header {
+  width: 100%;
+  min-width: 262px;
+  height: 50px;
+  line-height: 50px;
+  background: #323232;
+}
+header section {
+  box-sizing: border-box;
+  width: 620px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+header section label {
+  width: 100px;
+  height: 50px;
+  color: #ddd;
+  font-size: 24px;
+  float: left;
+}
+header section input {
+  box-sizing: border-box;
+  float: right;
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+  width: 360px;
+  height: 26px;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+section.pro {
+  box-sizing: border-box;
+  width: 620px;
+  padding: 0 10px;
+  margin: 10px auto;
+}
+section.pro hgroup {
+  width: 100%;
+  position: relative;
+}
+section.pro hgroup h3 {
+  color: #333;
+}
+section.pro hgroup span.num {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: #E6E6FA;
+  color: #666;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+}
+section.pro ul.list li.item {
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 4px;
+  border-left: 5px solid #629A9C;
+  border-right: 5px solid #629A9C;
+  line-height: 32px;
+  color: #666;
+  font-weight: bold;
+  background: #fff;
+}
+section.pro ul.list li.item::after {
+  content: "";
+  display: inline-block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+section.pro ul.list li.item input[type=checkbox] {
+  float: left;
+  width: 22px;
+  height: 22px;
+  margin: 5px 0 0 10px;
+}
+section.pro ul.list li.item p.info {
+  float: left;
+  width: 380px;
+  margin: 0;
+  margin-left: 20px;
+}
+section.pro ul.list li.item a.remove {
+  box-sizing: content-box;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 6px double #FFF;
+  background: #CCC;
+  line-height: 14px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  top: 0;
+  right: 10px;
+}
+section.pro ul.list li.item p.time {
+  float: left;
+  width: 110px;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 10px;
+}
